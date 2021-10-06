@@ -55,8 +55,14 @@ again to delete usual sett...
 
 letter-spacing: 2px;
 display: inline-block;
+//////////////////////////////////////////////////////////////////////////
+position: ...; - values: static, relative, absolute, fixed, sticky
 
-
-
-
+.green-box {
+  background-color: green;
+  position: relative;
+  top: 50px;
+  left: 120px;
+}
+////////////////////////////////////////////////////////////////////////////
 
