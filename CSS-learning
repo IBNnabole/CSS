@@ -1,0 +1,80 @@
+* {
+  border: 1px solid red;  // создает вокруг элементов обрамление 
+}
+
+p {
+  color: green;  // перекрашивет текст по его неймингу p,h1...
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color: teal; // перекрашивет текст по названию класса
+}
+
+.uppercase {
+  text-transform: uppercase; // трансформирует текст в заглавный
+}
+
+#article-title {
+  font-family: Tahoma;  // меняем шрифт
+}
+
+a[href*='florence'] {
+  color: lightgreen;     // меняем цвет ссылки а. Значение в [] это на что заканчивается ссылка
+}
+
+a[href*='beijing'] {
+  color: lightblue;
+}
+
+a[href*='seoul'] {
+  color: lightpink;
+}
+
+a:hover {
+  color:darkorange; // меняем цвет ссылки при наведении
+}
+
+.heading-background {
+  background-color: aqua; // по классу меняем фон текста
+}
+
+#publish-time {
+  color: lightgray; по id меняем цвет
+}
+
+h5 {
+  color: yellow;
+}
+
+.author-class {
+  color: pink;
+}
+
+#author-id {
+  color: cornflowerblue;
+}
+
+h2.destination {                // конкретизируем с помощью класса и изменяем шрифт
+  font-family: Tahoma;
+}
+
+.description h5 {    // меняем цвет элемента, который находится в другом элементе по классу 1го
+  color: blueviolet;
+}
+
+li h4 {
+  color: gold; // меняем цвет элемента, который находится в другом элементе, если у него нет класса или id пишем так. Сначала 1 элемент, затем его дочерний
+}
+
+h4 {
+  color: dodgerblue;
+}
+
+h5,
+li {
+  font-family: monospace; // через , можно задать сразу неск элементов, к которым будет применяться это правило
+}
