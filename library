@@ -54,7 +54,8 @@ again to delete usual sett...
 //////////////////////////////////////////////////
 
 letter-spacing: 2px;
-display: inline-block;
+display: inline-block; - display property: inline, block, and inline-block.
+
 //////////////////////////////////////////////////////////////////////////
 position: ...; - values: static, relative, absolute, fixed, sticky
 
@@ -65,4 +66,24 @@ position: ...; - values: static, relative, absolute, fixed, sticky
   left: 120px;
 }
 ////////////////////////////////////////////////////////////////////////////
+
+z-index: 10; -  We changed position to relative, because the z-index property does not work on static elements. z-index property controls how far back or how far forward an element should appear on the web page when elements overlap.
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+If you’re simply interested in moving an element as far left or as far right as possible in the container, you can use the float property.
+
+.orange-section {
+  background-color: orange;
+  width: 50%;
+  float: right; <--
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+The clear property specifies how elements should behave when they bump into each other on the page. 
+
+div.special {
+  clear: left; - values: left, right, none, both
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
