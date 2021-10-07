@@ -87,3 +87,16 @@ div.special {
 color: rgba(234, 45, 98, 0.33); - it might be a hsla. Its argument which help us to create visibe or not object.
 
 color: transparent; - Это эквивалентно rgba(0, 0, 0, 0)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Serif и Sans-Serif
+
+1) С засечками
+2) Без них
+
+h1 {
+  font-family: Caslon, Georgia, 'Times New Roman', serif; - used like a new shrift
+}
+
+
